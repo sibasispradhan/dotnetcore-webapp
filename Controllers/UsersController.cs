@@ -17,11 +17,10 @@ namespace dotnetcore_webapp.Controllers
             _context = context;
         }
 
-        //public async Task<IActionResult> Index()
-        //{
-        //    return View(await _context.Users.ToListAsync());
-        //}
+        public async Task<IActionResult> Index()
+        {
+            return View(await _context.Users.ToListAsync());
+        }
 
-        // Add other CRUD actions here...
     }
 }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using dotnetcore_webapp.Models;
 
 namespace dotnetcore_webapp.Data
 {
@@ -11,6 +12,7 @@ namespace dotnetcore_webapp.Data
         {
         }
 
-        // Add other DbSets if needed
+        //public DbSet<User> Users { get; set; }
+
     }
 }

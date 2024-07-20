@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using dotnetcore_webapp.Data; // Adjust the namespace as needed
+using dotnetcore_webapp.Data; 
 
 namespace dotnetcore_webapp
 {
